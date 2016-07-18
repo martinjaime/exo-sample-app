@@ -1,0 +1,14 @@
+name: sample
+description: balhs
+version: 0.0.1
+
+services:
+  exorelay-js:
+    location: ./exorelay-js
+    url: https://github.com/Originate/exorelay-js.git
+  mongo:
+    location: ./mongo
+    url: https://github.com/Originate/exosphere-mongodb-service.git
+  tweets:
+    location: ./tweets
+    url: https://github.com/Originate/exosphere-tweets-service.git
