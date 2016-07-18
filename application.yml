@@ -9,8 +9,8 @@ services:
   mongo:
     location: ../mongo
     url: https://github.com/Originate/exosphere-mongodb-service.git
+  web:
+    location: ./web-server
   tweets:
     location: ../tweets
     url: https://github.com/Originate/exosphere-tweets-service.git
-  web:
-    location: ./web-server
