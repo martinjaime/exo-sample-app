@@ -12,3 +12,5 @@ services:
   tweets:
     location: ../tweets
     url: https://github.com/Originate/exosphere-tweets-service.git
+  web:
+    location: ./web-server
