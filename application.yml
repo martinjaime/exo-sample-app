@@ -3,14 +3,14 @@ description: balhs
 version: 0.0.1
 
 services:
-  exorelay-js:
-    location: ../exorelay-js
-    url: https://github.com/Originate/exorelay-js.git
+  web:
+    location: ./web-server
   mongo:
     location: ../mongo
     url: https://github.com/Originate/exosphere-mongodb-service.git
-  web:
-    location: ./web-server
+  users:
+    location: ../exosphere-users-service
+    url: https://github.com/Originate/exosphere-users-service
   tweets:
-    location: ../tweets
+    location: ../exosphere-mongodb-service
     url: https://github.com/Originate/exosphere-tweets-service.git

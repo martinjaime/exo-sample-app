@@ -1,0 +1,23 @@
+extends ../layout
+
+block content
+  h2 #{count} Users
+
+  table
+    tr
+      th NAME
+      th PASSWORD
+      th
+    each user in users
+      tr
+        td
+          a(href="/users/#{user.id}") #{user.name}
+        td= user.password
+        td
+          a(href="users/#{user.id}/edit") edit
+          form(action="/users/#{user.id}?_method=DELETE" method="POST")
+            input(type="submit" value="del")
+
+
+
+  a(href="/users/new") add a user

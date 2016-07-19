@@ -1,0 +1,12 @@
+extends ../layout
+
+block content
+  h1 Edit
+
+  form(action="/users/#{user.id}?_method=PUT" method="POST")
+    table
+      tr
+        th NAME
+        td
+          input(type=text name="name" value="#{user.name}")
+    input(type="submit" value="update")

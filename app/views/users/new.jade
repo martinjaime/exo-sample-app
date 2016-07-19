@@ -1,0 +1,22 @@
+extends ../layout
+
+block content
+  h2 Sign Up!
+
+  form(action="/users" method="post")
+
+    table
+      tr
+        th name
+        td
+          input(name="name")
+
+      tr
+        th password
+        td
+          input(name="password")
+
+      tr
+        th
+        td
+          input(type="submit" value="Sign up!")
