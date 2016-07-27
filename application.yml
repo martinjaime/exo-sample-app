@@ -14,6 +14,6 @@ services:
   tweets:
     location: ../exosphere-mongodb-service
     url: https://github.com/Originate/exosphere-tweets-service.git
-  not-a-service:
+  no-service:
     location: ../Spoon-Knife
     url: https://github.com/hubot/Spoon-Knife.git
