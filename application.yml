@@ -6,7 +6,7 @@ services:
   web:
     location: ./web-server
   mongo:
-    location: ../mongo
+    location: ../exosphere-mongodb-service
     url: https://github.com/Originate/exosphere-mongodb-service.git
   users:
     location: ../exosphere-users-service
@@ -14,3 +14,6 @@ services:
   tweets:
     location: ../exosphere-mongodb-service
     url: https://github.com/Originate/exosphere-tweets-service.git
+  not-a-service:
+    location: ../Spoon-Knife
+    url: https://github.com/hubot/Spoon-Knife.git
