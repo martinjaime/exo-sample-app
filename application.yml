@@ -17,3 +17,6 @@ services:
   no-service:
     location: ../Spoon-Knife
     url: https://github.com/hubot/Spoon-Knife.git
+  bad-service:
+    location: ../hello-world
+    url: https://github.com/leachim6/hello-world.git
