@@ -7,16 +7,16 @@ services:
     location: ./web-server
   mongo:
     location: ../exosphere-mongodb-service
-    url: https://github.com/Originate/exosphere-mongodb-service.git
+    origin: https://github.com/Originate/exosphere-mongodb-service.git
   users:
     location: ../exosphere-users-service
-    url: https://github.com/Originate/exosphere-users-service
+    origin: https://github.com/Originate/exosphere-users-service
   tweets:
     location: ../exosphere-mongodb-service
-    url: https://github.com/Originate/exosphere-tweets-service.git
+    origin: https://github.com/Originate/exosphere-tweets-service.git
   no-service:
     location: ../Spoon-Knife
-    url: https://github.com/hubot/Spoon-Knife.git
+    origin: https://github.com/hubot/Spoon-Knife.git
   bad-service:
     location: ../hello-world
-    url: https://github.com/leachim6/hello-world.git
+    origin: https://github.com/leachim6/hello-world.git
