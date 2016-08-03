@@ -4,19 +4,19 @@ version: 0.0.1
 
 services:
   web:
-    location: ./web-server
+    local: ./web-server
   mongo:
-    location: ./exosphere-mongodb-service
+    local: ./exosphere-mongodb-service
     origin: https://github.com/Originate/exosphere-mongodb-service.git
   users:
-    location: ./exosphere-users-service
+    local: ./exosphere-users-service
     origin: https://github.com/Originate/exosphere-users-service
   tweets:
-    location: ./exosphere-mongodb-service
+    local: ./exosphere-mongodb-service
     origin: https://github.com/Originate/exosphere-tweets-service.git
   no-service:
-    location: ./Spoon-Knife
+    local: ./Spoon-Knife
     origin: https://github.com/hubot/Spoon-Knife.git
   bad-service:
-    location: ./hello-world
+    local: ./hello-world
     origin: https://github.com/leachim6/hello-world.git
